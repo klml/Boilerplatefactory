@@ -29,5 +29,3 @@ $aliases = array();
 $aliases['de'] = array(
     'Boilerplatefactory' => array( 'Boilerplatefactory' ),
 );
-
-[edit] 
