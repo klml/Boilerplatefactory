@@ -23,7 +23,7 @@ $wgAutoloadClasses['Boilerplatefactory'] = $dir . 'Boilerplatefactory_body.php';
 $wgExtensionMessagesFiles['Boilerplatefactory'] = $dir . 'Boilerplatefactory.i18n.php';
 $wgSpecialPages['Boilerplatefactory'] = 'Boilerplatefactory'; # Let MediaWiki know about your new special page.
 
-$wgBoilerplatefactorycategorie = 'Category:Boilerplatefactory' ; ## rootcategorie overrideable by LocalSettings.php
+$wgBoilerplatefactorycategorie = 'Category:Boilerplatefactory' ; ## rootcategorieo rewritable in LocalSettings.php
 
 ######## [[Manual:Hooks/EditFormPreloadText]]
 if (isset($_GET['blrchc'])) {
