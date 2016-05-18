@@ -2,7 +2,7 @@
 class Boilerplatefactory extends SpecialPage {
 	function __construct() {
 		parent::__construct( 'Boilerplatefactory' );
-		wfLoadExtensionMessages('Boilerplatefactory');
+		//~ wfLoadExtensionMessages('Boilerplatefactory');
 	}
 	function execute( $par ) {
 		global $wgRequest, $wgOut, $wgBoilerplatefactorydefaultpage, $wgBoilerplatefactorycategorie , $wgBoilerplatefactorynamespace ;
